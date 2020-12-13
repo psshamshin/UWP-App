@@ -31,7 +31,7 @@
                     <TextBlock Text="Battle" FontSize="50"/>
                 </StackPanel>
             </Button>
-            <Button Grid.Column="2" Style="{StaticResource mainButton}">
+            <Button Grid.Column="2" Style="{StaticResource mainButton}" Name="ImagesButton" Click="imagesButton_Click">
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="&#x2694;" FontSize="100" Width="135"/>
                     <TextBlock Text="Images" FontSize="50"/>
