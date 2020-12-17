@@ -27,26 +27,26 @@
             </Grid.ColumnDefinitions>
             <Button Grid.Column="1" Style="{StaticResource mainButton}" Name="BattleButton" Click="battleButton_Click">
                 <StackPanel Orientation="Vertical">
-                    <TextBlock Text="&#x2694;" FontSize="100"/>
-                    <TextBlock Text="Battle" FontSize="50"/>
+                    <TextBlock Text="&#x2694;" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock Text="Battle" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </StackPanel>
             </Button>
             <Button Grid.Column="2" Style="{StaticResource mainButton}" Name="ImagesButton" Click="imagesButton_Click">
                 <StackPanel Orientation="Vertical">
-                    <TextBlock Text="&#x2694;" FontSize="100" Width="135"/>
-                    <TextBlock Text="Images" FontSize="50"/>
+                    <TextBlock Text="&#x26e9;" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock Text="Images" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </StackPanel>
             </Button>
             <Button Grid.Column="3" Style="{StaticResource mainButton}">
                 <StackPanel Orientation="Vertical">
-                    <TextBlock Text="&#x26e9;" FontSize="100" Width="129"/>
-                    <TextBlock Text="Images" FontSize="50"/>
+                    <TextBlock Text="&#x2715;" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock Text="Nothing yet" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </StackPanel>
             </Button>
             <Button Grid.Column="4" Style="{StaticResource mainButton}">
                 <StackPanel Orientation="Vertical">
-                    <TextBlock Text="&#x26e9;" FontSize="100" Width="129"/>
-                    <TextBlock Text="Images" FontSize="50"/>
+                    <TextBlock Text="&#x2715;" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock Text="Nothing yet" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </StackPanel>
             </Button>
         </Grid>

@@ -11,11 +11,20 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="300" />
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="150" />
+            <RowDefinition Height="300"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" Text="There are no images by now(" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="100"/>
-        <TextBlock Grid.Row="1" Text="&#x2639;" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="100"/>
+        <TextBlock Grid.Row="1" Text="There are no images by now(" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="100"/>
+        <TextBlock Grid.Row="2" Text="&#x2639;" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="100"/>
+
+        <CommandBar>
+            <CommandBar.Content>
+                <Button  Style="{StaticResource NavigationBackButtonNormalStyle}"  VerticalAlignment="Top" 
+                         Name="BackImageButton" Click="backImageButton_Click"/>
+            </CommandBar.Content>
+            <!-- <AppBarButton Icon="Delete" Label="Delete"/>
+            <AppBarButton Icon="Save" Label="Save"/> -->
+        </CommandBar>
     </Grid>
 </Page>

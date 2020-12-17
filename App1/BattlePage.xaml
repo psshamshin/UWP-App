@@ -16,5 +16,13 @@
         
         <TextBlock Grid.Row="0" Text="Сражайся!!" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="100"/>
         <TextBlock Grid.Row="1" Text="&#x2620;" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="100"/>
+        
+        <CommandBar>
+            <CommandBar.Content>
+                <Button  Style="{StaticResource NavigationBackButtonNormalStyle}"  VerticalAlignment="Top" 
+                         Name="BackBattleButton" Click="backBattleButton_Click"/>
+            </CommandBar.Content>
+        </CommandBar>
+        
     </Grid>
 </Page>

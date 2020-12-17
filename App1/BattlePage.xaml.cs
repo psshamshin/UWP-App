@@ -26,5 +26,13 @@ namespace App1
         {
             this.InitializeComponent();
         }
+
+        private void backBattleButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (Frame.CanGoBack)
+            {
+                Frame.GoBack();
+            }
+        }
     }
 }
